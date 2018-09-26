@@ -1,0 +1,180 @@
+body,
+div,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+form,
+fieldset,
+legend,
+input,
+a,
+img {
+	margin: 0;
+	padding: 0;
+}
+.myCanvasTag {
+	width: 100%;
+	height: 100%;
+	border: 1px blue solid;
+}
+.bgImg {
+	width: 100%;
+	height: 100%;
+	display: inline;
+}
+.rw {
+	position: absolute;
+	z-index: 10;
+	display: inline;
+	left: 0%;
+	bottom: 150px;
+	width: 12%;
+	/*transition-duration: 2s;*/
+}
+.rwDYM {
+	position: absolute;
+	z-index: 10;
+	display: inline;
+	left: 0%;
+	bottom: 150px;
+	width: 30%;
+	/*transition-duration: 2s;*/
+}
+@keyframes Atop {
+	0% {
+		bottom: 150px;
+	}
+	50% {
+		bottom: 250px;
+	}
+	100% {
+		bottom: 150px;
+	}
+}
+
+@keyframes AtopMore {
+	0% {
+		bottom: 150px;
+	}
+	50% {
+		bottom: 350px;
+	}
+	100% {
+		bottom: 150px;
+	}
+}
+/*.rw:hover{
+	animation:Atop 0.15s;
+}*/
+
+.rwAtop {
+	animation: Atop 0.10s;
+}
+
+.rwAtopMore {
+	animation: AtopMore 0.10s;
+}
+
+.bgRoom {
+	width: 100%;
+	position: relative;
+	/*display: inline;*/
+	/*margin-bottom: -5px;*/
+	
+	overflow: hidden;
+	line-height: 0px;
+}
+.FK1 {
+	position: absolute;
+	z-index: 10;
+	bottom: 325px;
+	left: 5%;
+	width: 12%;
+}
+.FK2 {
+	position: absolute;
+	z-index: 10;
+	bottom: 325px;
+	left: 17%;
+	width: 12%;
+}
+.FK3 {
+	position: absolute;
+	z-index: 10;
+	bottom: 325px;
+	left: 29%;
+	width: 12%;
+}
+.FK4 {
+	position: absolute;
+	z-index: 10;
+	bottom: 425px;
+	left: 41%;
+	width: 12%;
+}
+.FK5 {
+	position: absolute;
+	z-index: 10;
+	bottom: 425px;
+	left: 53%;
+	width: 12%;
+}
+.FK6 {
+	position: absolute;
+	z-index: 10;
+	bottom: 325px;
+	left: 65%;
+	width: 12%;
+}
+.FK7 {
+	position: absolute;
+	z-index: 10;
+	bottom: 325px;
+	left: 77%;
+	width: 12%
+}
+.jump {
+	position: absolute;
+	z-index: 10;
+	bottom: 16%;
+	width: 36%;
+	left: 32%;
+}
+
+.HB{
+	position: absolute;
+	z-index: 10;
+	top: 10px;
+	right: 10px;
+}
+
+.HBImg{
+	width: 10px;
+	position: relative;
+	top:2px;
+}
+
+.time{
+	position: absolute;
+	z-index: 10;
+	top: 10px;
+	right: 80px;
+}
+
+.centerImg{
+	position: absolute;
+	z-index: 11;
+	width:24%;
+	top:35%;
+	left: 38%;
+}
