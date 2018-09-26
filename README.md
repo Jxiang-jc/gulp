@@ -9,11 +9,18 @@ nodejs/npm
 首先要确保pc上装有node，然后在global环境和项目文件中都install gulp
 ```
 npm install gulp -g   (global环境)
+
 npm install gulp --save-dev (项目环境)    
 ```
 在项目中install需要的gulp插件，一般只压缩的话需要
 ```
 npm install gulp-minify-css gulp-concat gulp-uglify gulp-rename del --save-dev 
+npm install gulp --save-dev (项目环境)
+```
+在项目中install需要的gulp插件，一般只压缩的话需要
+```
+npm install gulp-minify-css gulp-concat gulp-uglify gulp-rename del --save-dev
+
 ```
 更多插件可以在这个链接中找到 http://gratimax.net/search-gulp-plugins/
 
